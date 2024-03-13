@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(290, 50%, 7%);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 30x;
+    font-weight: bold;
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.reset-score-button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.reset-score-button:hover{
+    opacity: 0.8;
+}
+
+.reset-score-button:active{
+    opacity: 0.5;
+}
+
+.auto-play-button{
+    background-color: white;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.auto-play-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.auto-play-button:active{
+    opacity: 0.6;
+}
